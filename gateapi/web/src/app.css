@@ -2,3 +2,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+	font-family: 'Amplitude Wide', sans-serif;
+}
+
+@font-face {
+	font-family: 'Amplitude Wide';
+	src: local('Amplitude-Wide'), local('amplitude-wide'),
+		url('/fonts/amplitude-wide/amplitude-wide-regular.ttf');
+	font-weight: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Amplitude Wide';
+	src: local('Amplitude-Wide-Medium'), local('amplitude-wide-medium'),
+		url('/fonts/amplitude-wide/amplitude-wide-medium.ttf');
+	font-weight: medium;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Inter';
+	src: local('Inter-Medium'), local('inter-medium'),
+		url('/fonts/inter/Inter-Medium.ttf');
+	font-weight: medium;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Amplitude Wide Book';
+	src: local('Amplitude-Wide-Book'), local('amplitude-wide-book'),
+		url('/fonts/amplitude-wide-book/amplitude-wide-book.ttf');
+	font-weight: normal;
+	font-display: swap;
+}

@@ -1,7 +1,9 @@
 <script lang="ts">
-	import '../app.css';
+	import '../app.css'
 </script>
 
 <main>
-	<slot />
+	<div class="container mx-auto">
+		<slot />
+	</div>
 </main>
