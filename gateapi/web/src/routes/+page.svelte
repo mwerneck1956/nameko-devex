@@ -53,7 +53,7 @@
 		<h3 class="font-amplitudeWide mb-6 font-semibold text-dark-gray">
 			Property Type
 		</h3>
-		<div class="grid grid-cols-4 gap-5">
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
 			<IconButton icon={HomeIcon} label="Single-Family" />
 			<IconButton icon={PropertyIcon} label="Multi-Family" />
 			<IconButton icon={HomeIcon} label="Townhome" />
