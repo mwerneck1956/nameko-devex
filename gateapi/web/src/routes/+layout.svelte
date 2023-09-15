@@ -3,7 +3,7 @@
 </script>
 
 <main>
-	<div class="container mx-auto">
+	<div class="container max-w-[855px] mx-auto mt-16">
 		<slot />
 	</div>
 </main>
